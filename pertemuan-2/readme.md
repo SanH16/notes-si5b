@@ -35,6 +35,9 @@ Merekam file yang ingin di tracking :
 
 - git log | melihat history beserta id commit
 
+Melakukan push ke branch :
+- git push origin namaBranch
+
 // git diff
 cara 1 | git diff idBefore idAfter | untuk memeriksa perbandingan commit before and after
 
