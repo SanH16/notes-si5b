@@ -15,7 +15,7 @@ npm is a package manager for the JavaScript programming language maintained by n
 
 - NodeJS
 
-### DBMS
+### Database No SQL
 
 - MongoDB
 
@@ -23,3 +23,12 @@ npm is a package manager for the JavaScript programming language maintained by n
 
 - AWS : Amazon Web Service
 - CI/CD : Continues Integration / Continues Delivery
+
+### Bahasa back-end
+
+- Rust
+- Go
+- Java
+- C#
+- Ruby
+- PHP
