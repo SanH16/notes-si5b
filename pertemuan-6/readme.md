@@ -44,3 +44,6 @@ syntax CLI :
 - node -v
 
 # Membuat project Express
+
+- jalankan npm init
+- isi field yang sesuai dari nama, enter hingga selesai
