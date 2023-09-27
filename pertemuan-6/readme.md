@@ -43,7 +43,45 @@ syntax CLI :
 
 - node -v
 
-# Membuat project Express
+# Membuat project dengan Native Nodejs dan Express JS
 
 - jalankan npm init
 - isi field yang sesuai dari nama, enter hingga selesai
+
+- buat file index.js, pergi ke About dari NodeJS kemudian copy script nya
+  const http = require("http"); digunakan untuk import module http
+
+## Create with express
+
+- npm install express | digunakan untuk menambahkan dependencies express js
+- npm remove namadependencie | digunakan untuk menghapus dependencies
+  contoh hapus : npm remove mysql
+- dependencies/package yang diinstal diletakkan di dalam node_modules
+
+### Method Route Express
+
+- GET
+- POST
+- PATH
+  ....
+
+### Menggunakan params pada route express
+
+app.get("/profile/:nama", function (req, res) {
+res.send("Hello my name is " + req.params.nama);
+});
+
+- JSON : JavaScript Object Notation
+  <!-- contoh restfull API -->
+  app.get("/datamhs", (req, res) => {
+  let listMhs = [
+  { nama: "Adhitya", npm: "2024240088" },
+  { nama: "Hasan", npm: "2024240099" },
+  { nama: "Michael", npm: "2024240077P" },
+  ];
+  res.json(listMhs);
+  });
+
+<!-- Install Nodemon -->
+
+npm install -g nodemon | install di CMD jangan di powershell
